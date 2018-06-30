@@ -1,0 +1,33 @@
+PODS:
+  - React/Core (0.50.4):
+    - yoga (= 0.50.4.React)
+  - React/DevSupport (0.50.4):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.50.4)
+  - React/RCTBlob (0.50.4):
+    - React/Core
+  - React/RCTWebSocket (0.50.4):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.50.4.React)
+
+DEPENDENCIES:
+  - React/Core (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
+
+SPEC CHECKSUMS:
+  React: 541ba768b9855e10cdc76f55427a5cd0653ca806
+  yoga: 17521bbb0dd54a47c0b3ac43253e78cdac7488e0
+
+PODFILE CHECKSUM: b7088e561a0bc1cc7717279b5c48ba508a3a7d36
+
+COCOAPODS: 1.4.0
